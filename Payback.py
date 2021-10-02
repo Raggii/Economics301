@@ -5,7 +5,7 @@ def payBackFunction():
     print("Continue to input the cash flows the program will stop automatically")
     
     while(True):
-        tempYearVal = int(input("please input the cash flow: "))
+        tempYearVal = float(input("please input the cash flow: "))
         
         if((runningTotal - tempYearVal) < 0):
             

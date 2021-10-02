@@ -1,4 +1,5 @@
 def npvFunction():
+    print("DO U HAVE SALVAGE VALUE??")
     initialCost = input("please input the initial cost of the project: ")
     discountRate = input("please input the discount rate in percentage: ")
     discountRateIndecimal = float(discountRate)/100
