@@ -16,7 +16,7 @@ def payBackFunction():
             amountOfYears += 1
     
     totalYears = amountOfYears + runningTotal/tempYearVal
-    print(round(totalYears,2))
+    print("Payback in years is: {}".format(round(totalYears,2)))
     print("\n")
     
 while(True):
